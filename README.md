@@ -3,5 +3,5 @@ Conway's Game Of Life implementation in C.
 
 # Quick Start:
 ```console
-./build.sh
+$ ./build.sh
 ```
