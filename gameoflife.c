@@ -93,17 +93,19 @@ void next_gen() {
             {
                 if (count == 3) {
                     grid_next[y][x] = 1;
-                } else {
-                    grid_next[y][x] = 0;
                 }
+                // } else {
+                //     grid_next[y][x] = 0;
+                // }
             }
             if (grid[y][x]) 
             {
                 if (count == 2 || count == 3) {
                     grid_next[y][x] = 1;
-                } else {
-                    grid_next[y][x] = 0;
                 }
+                // } else {
+                //     grid_next[y][x] = 0;
+                // }
             }
         }
     }
