@@ -11,5 +11,5 @@ $ ./golc
 ```
 To run the ASM version:
 ```console
-$./golasm
+$ ./golasm
 ```
