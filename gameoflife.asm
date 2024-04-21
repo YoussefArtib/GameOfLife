@@ -34,50 +34,50 @@ puts:
 init_grid:
     push rbp
     mov rbp, rsp
-    mov DWORD [grid + 40*1 + 25], 0x1
+    mov BYTE [grid + 40*1 + 25], 0x1
 
-    mov DWORD [grid + 40*2 + 23], 0x1
-    mov DWORD [grid + 40*2 + 25], 0x1
+    mov BYTE [grid + 40*2 + 23], 0x1
+    mov BYTE [grid + 40*2 + 25], 0x1
 
-    mov DWORD [grid + 40*3 + 13], 0x1
-    mov DWORD [grid + 40*3 + 14], 0x1
-    mov DWORD [grid + 40*3 + 21], 0x1
-    mov DWORD [grid + 40*3 + 22], 0x1
-    mov DWORD [grid + 40*3 + 35], 0x1
-    mov DWORD [grid + 40*3 + 36], 0x1
+    mov BYTE [grid + 40*3 + 13], 0x1
+    mov BYTE [grid + 40*3 + 14], 0x1
+    mov BYTE [grid + 40*3 + 21], 0x1
+    mov BYTE [grid + 40*3 + 22], 0x1
+    mov BYTE [grid + 40*3 + 35], 0x1
+    mov BYTE [grid + 40*3 + 36], 0x1
 
-    mov DWORD [grid + 40*4 + 12], 0x1
-    mov DWORD [grid + 40*4 + 16], 0x1
-    mov DWORD [grid + 40*4 + 21], 0x1
-    mov DWORD [grid + 40*4 + 22], 0x1
-    mov DWORD [grid + 40*4 + 35], 0x1
-    mov DWORD [grid + 40*4 + 36], 0x1
+    mov BYTE [grid + 40*4 + 12], 0x1
+    mov BYTE [grid + 40*4 + 16], 0x1
+    mov BYTE [grid + 40*4 + 21], 0x1
+    mov BYTE [grid + 40*4 + 22], 0x1
+    mov BYTE [grid + 40*4 + 35], 0x1
+    mov BYTE [grid + 40*4 + 36], 0x1
 
-    mov DWORD [grid + 40*5 + 1],  0x1
-    mov DWORD [grid + 40*5 + 2],  0x1
-    mov DWORD [grid + 40*5 + 11], 0x1
-    mov DWORD [grid + 40*5 + 17], 0x1
-    mov DWORD [grid + 40*5 + 21], 0x1
-    mov DWORD [grid + 40*5 + 22], 0x1
+    mov BYTE [grid + 40*5 + 1],  0x1
+    mov BYTE [grid + 40*5 + 2],  0x1
+    mov BYTE [grid + 40*5 + 11], 0x1
+    mov BYTE [grid + 40*5 + 17], 0x1
+    mov BYTE [grid + 40*5 + 21], 0x1
+    mov BYTE [grid + 40*5 + 22], 0x1
 
-    mov DWORD [grid + 40*6 + 1],  0x1
-    mov DWORD [grid + 40*6 + 2],  0x1
-    mov DWORD [grid + 40*6 + 11], 0x1
-    mov DWORD [grid + 40*6 + 15], 0x1
-    mov DWORD [grid + 40*6 + 17], 0x1
-    mov DWORD [grid + 40*6 + 18], 0x1
-    mov DWORD [grid + 40*6 + 23], 0x1
-    mov DWORD [grid + 40*6 + 25], 0x1
+    mov BYTE [grid + 40*6 + 1],  0x1
+    mov BYTE [grid + 40*6 + 2],  0x1
+    mov BYTE [grid + 40*6 + 11], 0x1
+    mov BYTE [grid + 40*6 + 15], 0x1
+    mov BYTE [grid + 40*6 + 17], 0x1
+    mov BYTE [grid + 40*6 + 18], 0x1
+    mov BYTE [grid + 40*6 + 23], 0x1
+    mov BYTE [grid + 40*6 + 25], 0x1
 
-    mov DWORD [grid + 40*7 + 11], 0x1
-    mov DWORD [grid + 40*7 + 17], 0x1
-    mov DWORD [grid + 40*7 + 25], 0x1
+    mov BYTE [grid + 40*7 + 11], 0x1
+    mov BYTE [grid + 40*7 + 17], 0x1
+    mov BYTE [grid + 40*7 + 25], 0x1
 
-    mov DWORD [grid + 40*8 + 12], 0x1
-    mov DWORD [grid + 40*8 + 16], 0x1
+    mov BYTE [grid + 40*8 + 12], 0x1
+    mov BYTE [grid + 40*8 + 16], 0x1
 
-    mov DWORD [grid + 40*9 + 13], 0x1
-    mov DWORD [grid + 40*9 + 14], 0x1
+    mov BYTE [grid + 40*9 + 13], 0x1
+    mov BYTE [grid + 40*9 + 14], 0x1
 
     pop rbp
     ret
