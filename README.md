@@ -5,7 +5,7 @@ Conway's Game Of Life implementation in C and Assembly.
 ```console
 $ ./build.sh
 ```
-To run the C verion:
+To run the C version:
 ```console
 $ ./golc
 ```
