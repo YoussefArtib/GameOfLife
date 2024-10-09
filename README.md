@@ -13,3 +13,9 @@ To run the ASM version:
 ```console
 $ ./golasm
 ```
+To run the Elisp version:
+Prerequisite:
+    [emacs](https://www.gnu.org/software/emacs/emacs.html)
+```console
+$ emacs --script golelisp.el
+```
